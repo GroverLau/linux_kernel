@@ -31,12 +31,12 @@ on:
           - 5.15.178
           - 5.10.y_5.15.y
           - 6.1.y
-          - 6.1.128
+          - 6.1.129
           - 6.6.y
-          - 6.6.77
+          - 6.6.79
           - 6.1.y_6.6.y
           - 6.12.y
-          - 6.12.13
+          - 6.12.16
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
