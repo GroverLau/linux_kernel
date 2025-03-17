@@ -17,7 +17,6 @@ on:
         type: choice
         options:
           - unifreq/linux-5.10.y-rk35xx
-          - armbian/linux-rockchip@rk-5.10-rkr8
           - armbian/linux-rockchip@rk-6.1-rkr3
           - armbian/linux-rockchip@rk-6.1-rkr4.1
           - armbian/linux-rockchip@rk-6.1-rkr5
@@ -29,10 +28,10 @@ on:
         options:
           - 5.10.y
           - 5.10.160
-          - 5.10.209
           - 6.1.y
           - 6.1.75
           - 6.1.84
+          - 6.1.99
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
