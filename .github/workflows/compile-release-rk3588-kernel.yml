@@ -20,6 +20,7 @@ on:
           - armbian/linux-rockchip@rk-6.1-rkr3
           - armbian/linux-rockchip@rk-6.1-rkr4.1
           - armbian/linux-rockchip@rk-6.1-rkr5
+          - armbian/linux-rockchip@rk-6.1-rkr5.1
       kernel_version:
         description: "Select kernel version"
         required: false
@@ -32,6 +33,7 @@ on:
           - 6.1.75
           - 6.1.84
           - 6.1.99
+          - 6.1.115
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
