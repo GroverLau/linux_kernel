@@ -26,17 +26,17 @@ on:
         type: choice
         options:
           - 5.10.y
-          - 5.10.236
+          - 5.10.238
           - 5.15.y
-          - 5.15.180
+          - 5.15.185
           - 5.10.y_5.15.y
           - 6.1.y
-          - 6.1.138
+          - 6.1.141
           - 6.6.y
-          - 6.6.90
+          - 6.6.93
           - 6.1.y_6.6.y
           - 6.12.y
-          - 6.12.28
+          - 6.12.32
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
