@@ -33,6 +33,7 @@ on:
           - 6.1.75
           - 6.1.84
           - 6.1.99
+          - 6.1.115
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
